@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stacey Le Photography</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="images/myLogo.jpg" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="homePage.html" id="navbar__logo">Stacey Le Photography</a>
+        <!-- <div class="navbar__myLogo">
+          <a href="homePage.html"><img src="images/myLogo.jpg" alt="myLogo"></a>
+        </div>   -->
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="portfolioPage.html" class="navbar__links" id="portfolio-page">Portfolio</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page">Services</a>
+          </li>
+          <li class="navbar__item">
+            <a href="contactFormPage.html" class="navbar__links" id="contact-page">Contact</a>
+          </li>
+          <li class="instagram__icon--link">
+            <a href="https://www.instagram.com/staceylephoto" class="instagram__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Contact Form-->
+    <div class="contactForm__container">
+        <form id="myForm">
+            <h1>- GET IN TOUCH -</h1>
+            <br>
+            Full name* 
+            <input type="text" id="fullName" placeholder="John Doe" required > 
+            <br>
+            Email address* 
+            <input type="email" id="emailAddress" placeholder="johndoe@email.com" required>
+            <br>
+            Phone number* 
+            <input type="text" id="phoneNumber" placeholder="012 345 6789" required>
+            <br>
+            Service(s)* 
+            <label>
+                <input type="checkbox" name="Portrait"> Portrait
+            </label>
+            <label>
+                <input type="checkbox" name="Couples"> Couples
+            </label>
+            <label>
+                <input type="checkbox" name="Family"> Family
+            </label>
+            <label>
+                <input type="checkbox" name="Senior/graduation"> Senior/graduation
+            </label>
+            <label>
+                <input type="checkbox" name="Other"> Other
+            </label>
+            <br>
+            Additional information <textarea id="addInfo" cols="65" rows="5" placeholder="Preferred location? Your availability? Etc."></textarea>
+            <button oncliick="sendEmail()" type="submit">SEND</button>
+        </form>
+    </div> 
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <!-- <div class="footer__links">
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Portfolio</h2>
+              <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+              <a href="/">Careers</a> <a href="/">Terms of Service</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>About</h2>
+              <a href="/">Contact</a> <a href="/">Support</a>
+              <a href="/">Destinations</a>
+            </div>
+          </div>
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Services</h2>
+              <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+              <a href="/">Agency</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Social Media</h2>
+              <a href="/">Instagram</a> <a href="/">Facebook</a>
+              <a href="/">Youtube</a> <a href="/">Twitter</a>
+            </div>
+          </div>
+        </div> -->
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="homePage.html" id="footer__logo">Stacey Le Photography</a>
+            </div>
+            <p class="website__rights">© Stacey Le Photography 2023. All Rights Reserved.</p>
+            <div class="social__icons">
+              <a href="https://www.instagram.com/staceylephoto" class="social__icon--link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/stacey-le-96b295232/" class="social__icon--link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+  
+      <!-- Back to top button -->
+      <button id="backToTopBtn">Back to Top </button>
+  
+    </body>
+  </html>
