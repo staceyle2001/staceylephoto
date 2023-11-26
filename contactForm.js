@@ -2,14 +2,14 @@ const form = document.querySelector("form");
 const fullName = document.getElementById("fullName");
 const emailAddress = document.getElementById("emailAddress");
 const phoneNumber = document.getElementById("phoneNumber");
-// const checkbox = document.getElementById("checkbox");
 const addInfo = document.getElementById("addInfo");
 
 function sendEmail() {
-const bodyMessage = `Full Name: ${fullName.value}<br>
-Email: ${emailAddress.value}<br> 
-Phone Number: ${phoneNumber.value}<br>
-Additional Information: ${addInfo.value}<br>`
+    const bodyMessage = `Full Name: ${fullName.value}<br>
+    Email: ${emailAddress.value}<br> 
+    Phone Number: ${phoneNumber.value}<br>
+    Additional Information: ${addInfo.value}<br>`
+    //Need to add Service(s) Requested: 
 
     Email.send({
         SecureToken: "f7666d63-15b8-4bf2-ac60-d1a3d8418244",
