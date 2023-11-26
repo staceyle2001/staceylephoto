@@ -209,7 +209,7 @@
   /* Welcome Section */
   .welcome 
   {
-    background-image: url('images/welcomeBackground3.jpg');
+    background-image: url('images/welcomeBackground6.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 200px 0;
@@ -319,7 +319,7 @@
   
   .about__content h3
   {
-    font-size: 1 rem;
+    font-size: 1.5 rem;
     font-family: 'Cormorant', serif;
     font-weight: bolder;
     color: #53655C;
@@ -801,7 +801,7 @@
     align-items: center;
     margin: 0 auto;
     height: auto;
-    background-color: #A3AEB1;
+    background-color: #ded7d3;
     z-index: 1;
     width: 100%;
     padding: 0 50px;
@@ -814,7 +814,7 @@ form
     flex-direction: column;
     padding: 2vw 4vw;
     max-width: 600px;
-    margin: 40px auto; /* Center the form horizontally */
+    margin: 40px auto; 
     color: #22252B;
     font-size: 16px;
     font-family: 'Forum', cursive;
@@ -866,7 +866,7 @@ form button
 
 form button:hover
 {
-    background: #B09F95;
+    background: #53655C;
     transition: all 0.3s ease;
 }
 
@@ -879,10 +879,10 @@ form button:hover
     align-items: center;
     justify-content: center;
     height: auto;
-    background-color: #A3AEB1;
+    background-color: #ded7d3;
     z-index: 1;
     width: 100%;
-    padding: 0 20px; /* Adjusted padding for responsiveness */
+    padding: 0 20px; 
   }
 
   form 
@@ -891,9 +891,9 @@ form button:hover
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
-    width: 100%; /* Full width within the .contact__container */
+    width: 100%; 
     max-width: 600px;
-    margin: 20px 0; /* Adjusted margin for responsiveness */
+    margin: 20px 0; 
     color: #22252B;
     font-size: 16px;
   }

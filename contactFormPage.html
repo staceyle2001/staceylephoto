@@ -56,7 +56,7 @@
 
     <!--Contact Form-->
     <div class="contactForm__container">
-        <form id="myForm">
+        <form action="#">
             <h1>- GET IN TOUCH -</h1>
             <br>
             Full name* 
@@ -66,7 +66,7 @@
             <input type="email" id="emailAddress" placeholder="johndoe@email.com" required>
             <br>
             Phone number* 
-            <input type="text" id="phoneNumber" placeholder="012 345 6789" required>
+            <input type="text" id="phoneNumber" placeholder="111 222 3333" required>
             <br>
             Service(s)* 
             <label>
@@ -85,8 +85,8 @@
                 <input type="checkbox" name="Other"> Other
             </label>
             <br>
-            Additional information <textarea id="addInfo" cols="65" rows="5" placeholder="Preferred location? Your availability? Etc."></textarea>
-            <button oncliick="sendEmail()" type="submit">SEND</button>
+            Additional information <textarea id="addInfo" cols="65" rows="5" placeholder="Tell me about YOU! Preferred location? Your availability? Etc."></textarea>
+            <button type="submit">SEND</button>
         </form>
     </div> 
 
@@ -139,8 +139,10 @@
       <!-- Back to top button -->
       <button id="backToTopBtn">Back to Top </button>
 
-
-      <!-- scripts -->
+      <!-- Scripts -->
       <script src="website.js"></script>
+      <script src="contactForm.js"></script>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </body>
   </html>
