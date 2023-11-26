@@ -818,6 +818,7 @@ form
     color: #22252B;
     font-size: 16px;
     font-family: 'Forum', cursive;
+    font-weight: bold;
 }
 
 form h1
@@ -846,6 +847,26 @@ form label
     color:#22252B;
     font-family: 'Forum', cursive;
     font-size: 16px;
+    font-weight: normal;
+}
+
+input[type="number"] 
+{
+  /* Disable the default arrows */
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Webkit browsers (Chrome, Safari) */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 form button
