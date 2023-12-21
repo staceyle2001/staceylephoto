@@ -312,6 +312,7 @@
   .about__content h2
   {
     font-size: 1.5rem;
+    font-style: italic;
     margin-bottom: 35px;
     font-family: 'Cormorant', serif;
     color: #22252B;
@@ -341,7 +342,7 @@
     background:#A3AEB1;
     padding: 15px 40px;
     border: none;
-    /* border-radius: 4px; */
+    /* border-radius: 50px; */
     margin-top: 2rem;
     cursor: pointer;
     position: relative;
@@ -609,7 +610,7 @@
   /* Contact Section */
   .contact 
   {
-    background-image: url('images/getInToushSection.jpg');
+    background-image: url('images/emilyNathan1.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 175px 0;
@@ -639,15 +640,16 @@
     font-size: 2rem;
     color: #B09F95;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     margin-bottom: 32px;
   }
   
   .contact__content h2 
   {
     font-size: 3.5rem;
+    font-style: italic;
     font-family: 'Cormorant', serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     color: white;
   }
   
@@ -798,7 +800,7 @@
   /* servicesHeader Section */
   .servicesHeader 
   {
-    background-image: url('images/welcomeBackground.jpg');
+    background-image: url('images/serviceHeader.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 75px 0;
@@ -822,7 +824,7 @@
     font-size: 70px;
     font-family: 'Cormorant', serif;
     font-style: italic;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     margin-bottom: 24px;
     color: #B09F95;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
@@ -894,6 +896,7 @@
   .portrait__content 
   {
     width: 100%;
+    text-align: center;
   }
   
   .portrait__content h1 
@@ -1019,18 +1022,8 @@
     .portrait__content h1 
     {
       font-size: 2rem;
-      margin-top: 7rem;
-      text-align: left;
-    }
-
-    .portrait__content h2
-    {
-      text-align: left;
-    }
-    
-    .portrait__content p 
-    {
-      text-align: left;
+      margin-top: 9rem;
+      text-align: center;
     }
   }
   
@@ -1079,6 +1072,7 @@
   .couples__content 
   {
     width: 100%;
+    text-align: center;
   }
   
   .couples__content h1 
@@ -1204,18 +1198,7 @@
     .couples__content h1 
     {
       font-size: 2rem;
-      margin-top: 7rem;
-      text-align: left;
-    }
-
-    .couples__content h2
-    {
-      text-align: left;
-    }
-    
-    .couples__content p 
-    {
-      text-align: left;
+      margin-top: 9rem;
     }
   }
   
@@ -1264,6 +1247,7 @@
   .family__content 
   {
     width: 100%;
+    text-align: center;
   }
   
   .family__content h1 
@@ -1389,18 +1373,8 @@
     .family__content h1 
     {
       font-size: 2rem;
-      margin-top: 7rem;
-      text-align: left;
-    }
-
-    .family__content h2
-    {
-      text-align: left;
-    }
-    
-    .family__content p 
-    {
-      text-align: left;
+      margin-top: 9rem;
+      text-align: center;
     }
   }
   
@@ -1449,6 +1423,7 @@
   .seniors-graduates__content 
   {
     width: 100%;
+    text-align: center;
   }
   
   .seniors-graduates__content h1 
@@ -1574,18 +1549,8 @@
     .seniors-graduates__content h1 
     {
       font-size: 2rem;
-      margin-top: 7rem;
-      text-align: left;
-    }
-
-    .seniors-graduates__content h2
-    {
-      text-align: left;
-    }
-    
-    .seniors-graduates__content p 
-    {
-      text-align: left;
+      margin-top: 9rem;
+      text-align: center;
     }
   }
   
