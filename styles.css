@@ -209,7 +209,7 @@
   /* Welcome Section */
   .welcome 
   {
-    background-image: url('images/welcomeBackground6.jpg');
+    background-image: url('images/welcomeBackground.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 200px 0;
@@ -513,28 +513,28 @@
     flex-direction: column;
     justify-content: center;
     transition: 0.3s ease-in;
-    background-image: url('images/kylie.jpg');
+    background-image: url('images/myServicesPortrait.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
   
   .services__card:nth-child(2) 
   {
-    background-image: url('images/couples.jpg');
+    background-image: url('images/myServicesCouples.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
   
   .services__card:nth-child(3) 
   {
-    background-image: url('images/family.jpg');
+    background-image: url('images/myServicesFamily.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
 
   .services__card:nth-child(4) 
   {
-    background-image: url('images/seniors.jpg');
+    background-image: url('images/myServicesSenior.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
@@ -610,7 +610,7 @@
   /* Contact Section */
   .contact 
   {
-    background-image: url('images/emilyNathan1.jpg');
+    background-image: url('images/getInTouch2.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 175px 0;
@@ -796,11 +796,103 @@
     } */
   }
 
+  /* Portfolio Page */
+  .portfolioPage 
+  {
+    background-image: url('images/portfolioPage.jpg');
+    background-size: cover; /* This makes the image cover the entire section */
+    background-position: center; /* Center the image horizontally and vertically */
+    padding: 175px 0;
+  }
+
+  .portfolioPage__container 
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+  }
+  
+  .portfolioPage__content 
+  {
+    width: 100%;
+  }
+  
+  .portfolioPage__content h1 
+  {
+    font-size: 2rem;
+    color: #E5E8EB;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 32px;
+  }
+
+  .portfolio__options
+  {
+    list-style: none;
+    align-items: left;
+  }
+
+  .portfolio__links 
+  {
+    font-size: 4.5rem;
+    color: #B09F95;
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    height: 100%;
+  }
+  
+  .portfolio__links:hover 
+  {
+    color: #53655C;
+    transition: all 0.1s ease;
+    font-style: italic;
+  }
+
+  /* Light Gallery CSS*/
+.lightGallery
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.lightGallery a 
+{
+    width: auto;
+    height: 300px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.lightGallery a img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lightGallery a img:hover
+{
+    transform:scale(1.01);
+}
+
   /* Services page */
   /* servicesHeader Section */
   .servicesHeader 
   {
-    background-image: url('images/serviceHeader.jpg');
+    background-image: url('images/headerServicesPage.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 75px 0;

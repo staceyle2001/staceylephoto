@@ -12,6 +12,10 @@
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
     />
+
+    <!-- light gallery link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css">
+    
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
@@ -54,23 +58,9 @@
       </div>
     </nav>
 
-    <div class="portfolioPage" id="portfolioPage">
-      <div class="portfolioPage__container">
-        <div class="portfolioPage__content">
-          <h1>Portfolio . . .</h1>
-          <ul class="portfolio__options">
-            <li class="option">
-              <a href="portraitPortfolio.html" class="portfolio__links">Portrait</a>
-            </li>
-            <li class="option">
-              <a href="couplesPortfolio.html" class="portfolio__links">Couples</a>
-            </li>
-            <li class="option">
-              <a href="familyPortfolio.html" class="portfolio__links">Family</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <!-- Gallery Section -->
+    <div class="lightGallery">
+      <a href="images/couples.jpg"><img alt="" src="images/couples.jpg"></a>
     </div>
 
     <!-- Footer Section -->
@@ -124,5 +114,7 @@
 
     <!-- scripts -->
     <script src="website.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+    <script src="lightGallery.js"></script>
   </body>
 </html>
