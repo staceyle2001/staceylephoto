@@ -73,6 +73,7 @@ const hideMobileMenu = () =>
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
 
+// Expand welcome header
 // Get a reference to the header element
 const header = document.querySelector('.welcome__heading');
 

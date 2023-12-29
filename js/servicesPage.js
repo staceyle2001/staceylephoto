@@ -1,16 +1,6 @@
-// light gallery
-document.addEventListener("DOMContentLoaded", function() 
-{
-    lightGallery(document.querySelector('.lightGallery'),
-    {
-        download: false
-    });
-});
-
-
-//Expand gallery header
+//Expand services page header
 // Get a reference to the header element
-const header = document.querySelector('.galleryHeader__heading');
+const header = document.querySelector('.servicesHeader__heading');
 
 // Define a scroll event listener
 window.addEventListener('scroll', () => {
@@ -23,9 +13,9 @@ window.addEventListener('scroll', () => {
   // Check if the user has scrolled past the threshold
   if (scrollY > scrollThreshold) {
     // Add the "expanded" class to the header element
-    header.classList.add('expandGalleryHeader');
+    header.classList.add('expandServicesHeader');
   } else {
     // Remove the "expanded" class if the user scrolls back up
-    header.classList.remove('expandGalleryHeader');
+    header.classList.remove('expandServicesHeader');
   }
 });

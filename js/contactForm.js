@@ -1,3 +1,4 @@
+// Format and send email
 const form = document.querySelector("form");
 const fullName = document.getElementById("fullName");
 const emailAddress = document.getElementById("emailAddress");
