@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function()
     });
 });
 
-
 //Expand gallery header
 // Get a reference to the header element
 const header = document.querySelector('.galleryHeader__heading');
