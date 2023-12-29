@@ -212,7 +212,7 @@
     background-image: url('images/welcomeBackground.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
-    padding: 200px 0;
+    padding: 13rem 0;
   }
   
   .welcome__container 
@@ -240,7 +240,7 @@
     font-weight: bold;
   }
 
-  .expanded 
+  .expandWelcomeHeader 
   {
     font-size: 75px;
   }
@@ -260,14 +260,19 @@
   
   @media screen and (max-width: 768px) 
   {
-    .welcome__heading 
+    .welcome
     {
-      font-size: 40px;
+      padding: 8rem 0;
     }
 
-    .expanded 
+    .welcome__heading 
     {
-      font-size: 43px;
+      font-size: 47px;
+    }
+
+    .expandWelcomeHeader 
+    {
+      font-size: 50px;
     }
   
     .welcome__description 
@@ -433,30 +438,35 @@
     }
   
     .about__content h1 
-  {
-    font-size: 2rem;
-    margin-top: 7rem;
-    text-align: left;
-  }
+    {
+      font-size: 2rem;
+      margin-top: 7rem;
+      text-align: left;
+    }
 
-  .about__content h2
-  {
-    text-align: left;
-  }
-  
-  .about__content h3
-  {
-    text-align: left;
-  }
-  
-  .about__content p 
-  {
-    text-align: left;
-  }
+    .about__content h2
+    {
+      text-align: left;
+    }
+    
+    .about__content h3
+    {
+      text-align: left;
+    }
+    
+    .about__content p 
+    {
+      text-align: left;
+    }
   }
   
   @media screen and (max-width: 480px) 
   {
+    .about
+    {
+      padding-bottom: 3rem;
+    }
+
     .about__img--card 
     {
       width: 250px;
@@ -493,7 +503,7 @@
     color: black;
     font-family: 'Cormorant', serif;
     margin-bottom: 5rem;
-    font-size: 3rem;
+    font-size: 4rem;
     text-transform: uppercase;
   }
   
@@ -514,14 +524,14 @@
     flex-direction: column;
     justify-content: center;
     transition: 0.3s ease-in;
-    background-image: url('images/myServicesPortrait.jpg');
+    background-image: url('images/portrait8.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
   
   .services__card:nth-child(2) 
   {
-    background-image: url('images/myServicesCouples.jpg');
+    background-image: url('images/couples16.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
@@ -535,7 +545,7 @@
 
   .services__card:nth-child(4) 
   {
-    background-image: url('images/myServicesSenior.jpg');
+    background-image: url('images/myServicesSenior2.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
@@ -602,6 +612,11 @@
   
   @media screen and (max-width: 768px) 
   {
+    .services
+    {
+      padding: 8rem 0;
+    }
+
     .services__wrapper 
     {
       grid-template-columns: 1fr;
@@ -619,7 +634,7 @@
     background-image: url('images/getInTouch2.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
-    padding: 175px 0;
+    padding: 10rem 0;
   }
   
   .contact__container 
@@ -644,6 +659,7 @@
   .contact__content h1 
   {
     font-size: 2rem;
+    /* font-family: 'Forum', cursive; */
     color: #B09F95;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -785,15 +801,20 @@
       height: 250px;
     } */
   
+    .contact
+    {
+      padding: 5rem 0;
+    }
+
     .contact__content h1 
     {
       font-size: 2rem;
-      margin-bottom: 7rem;
+      /* margin-bottom: 7rem; */
     }
     .contact__content h2 
     {
       font-size: 3rem;
-      margin-bottom: 6rem;
+      /* margin-bottom: 6rem; */
     }
   
     /* .about__btn 
@@ -907,15 +928,15 @@
 .galleryHeader__heading 
 {
   font-size: 70px;
-  font-family: 'Cormorant', serif;
-  font-style: italic;
+  font-family: 'Forum', cursive;
+  /* font-style: italic; */
   text-transform: uppercase;
   color: #B09F95;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   transition: font-size 0.3s;
 }
 
-.expanded 
+.expandGalleryHeader 
   {
     font-size: 75px;
   }
@@ -932,7 +953,7 @@
       font-size: 50px;
     }
 
-    .expanded 
+    .expandGalleryHeader 
     {
       font-size: 53px;
     }
@@ -994,9 +1015,10 @@
   border: none;
   cursor: pointer;
   position: relative;
-  transition: all 0.35s;
+  transition: all 0.3s ease;
   outline: none;
   margin-bottom: 1rem;
+  border-radius: 30px;
 }
 
 .endOfPortfolio__btn a 
@@ -1009,26 +1031,10 @@
   text-decoration: none;
 }
 
-.endOfPortfolio__btn:after 
-{
-  position: absolute;
-  content: '';
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #22252B;
-  transition: all 0.35s;
-}
-
 .endOfPortfolio__btn:hover 
 {
-  color: #fff;
-}
-
-.endOfPortfolio__btn:hover:after 
-{
-  width: 100%;
+  background-color: #22252B;
+  transition: all 0.3s ease;
 }
 
   /* Services page */
@@ -1066,7 +1072,7 @@
     transition: font-size 0.3s;
   }
 
-  .expanded 
+  .expandServicesHeader 
   {
     font-size: 75px;
   }
@@ -1075,17 +1081,17 @@
   {
     .servicesHeader 
     {
-      padding: 50px 0;
+      padding: 20px 0;
     }
 
     .servicesHeader__heading 
     {
-      font-size: 40px;
+      font-size: 50px;
     }
 
-    .expanded 
+    .expandServicesHeader 
     {
-      font-size: 43px;
+      font-size: 53px;
     }
   }
 
@@ -1207,6 +1213,11 @@
   /* Mobile Responsive */
   @media screen and (max-width: 1100px) 
   {
+    .portrait
+    {
+      padding-bottom: 1rem;
+    }
+
     .portrait__container 
     {
       display: grid;
@@ -1246,6 +1257,11 @@
   
   @media screen and (max-width: 480px) 
   {
+    .portrait
+    {
+      padding-bottom: 2rem;
+    }
+
     .portrait__img--card 
     {
       width: 250px;
@@ -1383,6 +1399,11 @@
   /* Mobile Responsive */
   @media screen and (max-width: 1100px) 
   {
+    .couples
+    {
+      padding-bottom: 1rem;
+    }
+
     .couples__container 
     {
       display: grid;
@@ -1421,6 +1442,11 @@
   
   @media screen and (max-width: 480px) 
   {
+    .couples
+    {
+      padding-bottom: 2rem;
+    }
+
     .couples__img--card 
     {
       width: 250px;
@@ -1558,6 +1584,11 @@
   /* Mobile Responsive */
   @media screen and (max-width: 1100px) 
   {
+    .family
+    {
+      padding-bottom: 1rem;
+    }
+
     .family__container 
     {
       display: grid;
@@ -1597,6 +1628,11 @@
   
   @media screen and (max-width: 480px) 
   {
+    .family
+    {
+      padding-bottom: 2rem;
+    }
+
     .family__img--card 
     {
       width: 250px;
@@ -1734,6 +1770,11 @@
   /* Mobile Responsive */
   @media screen and (max-width: 1100px) 
   {
+    .seniors-graduates
+    {
+      padding-bottom: 1rem;
+    }
+
     .seniors-graduates__container 
     {
       display: grid;
@@ -1773,6 +1814,11 @@
   
   @media screen and (max-width: 480px) 
   {
+    .seniors-graduates
+    {
+      padding-bottom: 2rem;
+    }
+
     .seniors-graduates__img--card 
     {
       width: 250px;

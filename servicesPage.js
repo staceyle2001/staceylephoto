@@ -12,9 +12,9 @@ window.addEventListener('scroll', () => {
   // Check if the user has scrolled past the threshold
   if (scrollY > scrollThreshold) {
     // Add the "expanded" class to the header element
-    header.classList.add('expanded');
+    header.classList.add('expandServicesHeader');
   } else {
     // Remove the "expanded" class if the user scrolls back up
-    header.classList.remove('expanded');
+    header.classList.remove('expandServicesHeader');
   }
 });
