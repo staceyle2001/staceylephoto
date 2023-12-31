@@ -645,7 +645,7 @@
     font-size: 2rem;
     color: #B09F95;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 30px;
   }
   
@@ -654,7 +654,7 @@
     font-size: 3.5rem;
     font-style: italic;
     font-family: 'Cormorant', serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     color: white;
   }
   
