@@ -209,7 +209,7 @@
   /* Welcome Section */
   .welcome 
   {
-    background-image: url('images/family18.jpg');
+    background-image: url('images/couples26.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 13rem 0;
@@ -231,13 +231,14 @@
   .welcome__heading 
   {
     font-size: 75px;
-    font-family: 'Cormorant', serif;
+    /* font-family: 'Cormorant', serif; */
+    font-family: 'Forum', cursive;
     text-transform: uppercase;
     margin-bottom: 24px;
     color: #53655C;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     transition: font-size 0.3s;
-    font-weight: bold;
+    font-weight: 1500;
   }
 
   /* .expandWelcomeHeader 
@@ -250,7 +251,7 @@
     font-size: 25px;
     font-family: 'Cormorant', serif;
     color: whitesmoke;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
   }
   
   .highlight 
