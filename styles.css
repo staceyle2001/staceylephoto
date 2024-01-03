@@ -209,7 +209,7 @@
   /* Welcome Section */
   .welcome 
   {
-    background-image: url('images/welcomeBackground.jpg');
+    background-image: url('images/family18.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 13rem 0;
@@ -230,27 +230,27 @@
   
   .welcome__heading 
   {
-    font-size: 70px;
+    font-size: 75px;
     font-family: 'Cormorant', serif;
     text-transform: uppercase;
     margin-bottom: 24px;
     color: #53655C;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     transition: font-size 0.3s;
     font-weight: bold;
   }
 
-  .expandWelcomeHeader 
+  /* .expandWelcomeHeader 
   {
     font-size: 75px;
-  }
+  } */
   
   .welcome__description 
   {
     font-size: 25px;
     font-family: 'Cormorant', serif;
     color: whitesmoke;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   
   .highlight 
@@ -270,10 +270,10 @@
       font-size: 47px;
     }
 
-    .expandWelcomeHeader 
+    /* .expandWelcomeHeader 
     {
       font-size: 50px;
-    }
+    } */
   
     .welcome__description 
     {
