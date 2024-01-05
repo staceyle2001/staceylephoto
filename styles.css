@@ -230,7 +230,7 @@
   
   .welcome__heading 
   {
-    font-size: 75px;
+    font-size: 70px;
     /* font-family: 'Cormorant', serif; */
     font-family: 'Forum', cursive;
     text-transform: uppercase;
@@ -241,10 +241,10 @@
     font-weight: 1500;
   }
 
-  /* .expandWelcomeHeader 
+  .expandWelcomeHeader 
   {
     font-size: 75px;
-  } */
+  }
   
   .welcome__description 
   {
@@ -271,10 +271,10 @@
       font-size: 47px;
     }
 
-    /* .expandWelcomeHeader 
+    .expandWelcomeHeader 
     {
       font-size: 50px;
-    } */
+    }
   
     .welcome__description 
     {
