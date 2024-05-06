@@ -542,7 +542,7 @@
 
   .services__card:nth-child(4) 
   {
-    background-image: url('images/senior.jpg');
+    background-image: url('images/senior2.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
