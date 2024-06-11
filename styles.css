@@ -209,7 +209,7 @@
   /* Welcome Section */
   .welcome 
   {
-    background-image: url('images/family18.jpg');
+    background-image: url('images/couples39.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 13rem 0;
@@ -235,8 +235,9 @@
     font-family: 'Forum', cursive;
     text-transform: uppercase;
     margin-bottom: 24px;
-    color: #53655C;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: rgb(223, 222, 222);
+    /*53655C*/
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     transition: font-size 0.3s;
     font-weight: 1500;
   }
@@ -251,7 +252,7 @@
     font-size: 25px;
     font-family: 'Cormorant', serif;
     color: whitesmoke;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.2);
   }
   
   .highlight 
@@ -345,7 +346,8 @@
   
   .about__btn 
   {
-    background:#A3AEB1;
+    background:#53655C;
+    /*A3AEB1*/
     padding: 15px 40px;
     border: none;
     margin-top: 2rem;
@@ -528,7 +530,7 @@
   
   .services__card:nth-child(2) 
   {
-    background-image: url('images/couples28.jpg');
+    background-image: url('images/couples36.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
