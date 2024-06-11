@@ -528,7 +528,7 @@
   
   .services__card:nth-child(2) 
   {
-    background-image: url('images/couples16.jpg');
+    background-image: url('images/couples28.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
@@ -542,7 +542,7 @@
 
   .services__card:nth-child(4) 
   {
-    background-image: url('images/senior2.jpg');
+    background-image: url('images/senior6.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
