@@ -209,7 +209,7 @@
   /* Welcome Section */
   .welcome 
   {
-    background-image: url('images/couples39.jpg');
+    background-image: url('images/couples38_thumbnail.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 13rem 0;
@@ -523,28 +523,28 @@
     flex-direction: column;
     justify-content: center;
     transition: 0.3s ease-in;
-    background-image: url('images/portrait27.jpg');
+    background-image: url('images/portrait27_thumbnail.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
   
   .services__card:nth-child(2) 
   {
-    background-image: url('images/couples36.jpg');
+    background-image: url('images/couples36_thumbnail.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
   
   .services__card:nth-child(3) 
   {
-    background-image: url('images/family22.jpg');
+    background-image: url('images/family22_thumbnail.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
 
   .services__card:nth-child(4) 
   {
-    background-image: url('images/senior6.jpg');
+    background-image: url('images/senior6_thumbnail.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
   }
@@ -618,7 +618,7 @@
   /* Contact Section */
   .contact 
   {
-    background-image: url('images/getInTouch2.jpg');
+    background-image: url('images/getInTouch2_thumbnail.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 10rem 0;
@@ -715,7 +715,7 @@
   /* Portfolio Page */
   .portfolioPage 
   {
-    background-image: url('images/portfolioPage.jpg');
+    background-image: url('images/portfolioPage_thumbnail.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 175px 0;
@@ -926,7 +926,7 @@
   /* servicesHeader Section */
   .servicesHeader 
   {
-    background-image: url('images/headerServicesPage.jpg');
+    background-image: url('images/headerServicesPage_thumbnail.jpg');
     background-size: cover; /* This makes the image cover the entire section */
     background-position: center; /* Center the image horizontally and vertically */
     padding: 75px 0;

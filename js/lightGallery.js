@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", function()
 {
     lightGallery(document.querySelector('.lightGallery'),
     {
-        download: false
+        download: false,
+        thumbnail:true
     });
 });
 
